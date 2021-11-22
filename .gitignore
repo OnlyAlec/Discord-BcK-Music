@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+.eslintrc.json
+.lintstagedrc
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+.vscode
+
+# Commit file configure
+.versionrc.json
+.commitlintrc.json

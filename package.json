@@ -1,0 +1,44 @@
+{
+  "name": "bck-music",
+  "version": "1.0.0",
+  "description": "ʙᴏᴛ ᴍᴜꜱɪᴄᴀʟ ᴅᴇʟ ꜱᴇʀᴠɪᴅᴏʀ ʙᴇᴄᴋꜱ!",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "husky install",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnlyAlec/Discord-BcK-Music.git"
+  },
+  "keywords": [
+    "Bot",
+    "Music",
+    "Discord"
+  ],
+  "author": "OnlyAlec",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/OnlyAlec/Discord-BcK-Music/issues"
+  },
+  "homepage": "https://github.com/OnlyAlec/Discord-BcK-Music#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "@discordjs/voice": "^0.6.0",
+    "discord-player": "^5.1.0",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "ffmpeg-static": "^4.4.0",
+    "libsodium-wrappers": "^0.7.9"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "husky": "^7.0.4",
+    "standard-version": "^9.3.2"
+  }
+}
